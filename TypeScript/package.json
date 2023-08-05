@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test" : "vitest"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "vitest": "^0.34.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/type-utils": "^6.2.1",
+    "utility-types": "^3.10.0"
   }
 }
