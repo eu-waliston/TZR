@@ -1,12 +1,13 @@
 import React from "react";
-
-import "./App.css";
+import "./App.scss";
+import Component from "./Components/Count/Count";
 
 const App = () => {
   return (
-    <>
-      <h1>HEY Listen!</h1>
-    </>
+    <div className="App">
+      <h1>Welcome, </h1>
+      <Component />
+    </div>
   );
 };
 
